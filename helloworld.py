@@ -8,9 +8,9 @@
 
 # make sure that your code contains comments explaining your logic!
 while True: #While loop to prompt the user andd keep operations contained
-	print('Hello! To continue, type "1" for EN,"2" for DE, "3" for RU. Type "4" to exit') #3 language types to choose from
+	print('Hello! To continue, type "1" for EN, "2" for DE, "3" for RU. Type "4" to exit') #3 language types to choose from
 	lang = input()
-	if lang == '1, EN, 2, DE, 3, RU':
+	if lang == '1, 2, 3,':
 			continue  #continue with the loop
 	if lang == "1": #statement for english users
 	  print('Please type your name')
